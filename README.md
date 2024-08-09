@@ -64,4 +64,45 @@ public class Main {
         usuario.listarLibrosPrestados();
     }
 }
+## Cómo Ejecutar el Código
+
+1. **Clonar el Repositorio**
+
+Primero, clonar el repositorio enmáquina local utilizando Git, se puede hacerlo con el comando `git clone`, seguido de la URL del repositorio.
+
+2. **Compilar el Código**
+
+Una vez que se haya clonado el repositorio, navega al directorio del proyecto utilizando la terminal o línea de comandos. Luego, compila el código fuente usando el compilador de Java. Este paso convertirá los archivos fuente `.java` en archivos `.class` que pueden ser ejecutados.
+
+3. **Ejecutar el Código**
+
+Después de compilar el código, se puede ejecutar la aplicación, utilizando el comando para ejecutar la clase principal del proyecto. Esto iniciará el programa y se podrá ver cómo funciona el sistema de gestión de la biblioteca.
+
+Asegurarse de tener Java instalado en tu máquina para compilar y ejecutar el código. Si no lo tienes, puedes descargarlo e instalarlo desde el sitio web oficial de Oracle.
+
+
+## Usos del Código
+
+1. **Crear Instancias de Libros**
+
+Primero, se puede crear instancias de libros especificando el título y el autor. Por ejemplo, puedes crear un libro titulado "Cien años de soledad" de Gabriel García Márquez y otro libro titulado "Don Quijote de la Mancha" de Miguel de Cervantes.
+
+2. **Crear una Instancia de Usuario**
+
+Luego, crea una instancia de usuario con un nombre, como "Juan Pérez". Este usuario podrá tomar prestados y devolver libros.
+
+3. **Prestar Libros**
+
+El usuario puede tomar prestado un libro si está disponible. Una vez prestado, el libro se marcará como no disponible y se añadirá a la lista de libros prestados del usuario.
+
+4. **Devolver Libros**
+
+Cuando el usuario devuelva un libro, este se marcará como disponible nuevamente y se eliminará de la lista de libros prestados del usuario.
+
+5. **Listar Libros Prestados**
+
+ El usuario puede consultar todos los libros que ha tomado prestados en cualquier momento. Esto mostrará una lista de los libros que el usuario tiene actualmente en su posesión.
+
+
+
 
